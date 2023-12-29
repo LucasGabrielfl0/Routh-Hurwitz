@@ -1,2 +1,2 @@
 # Routh-Hurwitz
-Matlab code used to test the sistem stability using the Routh-Hurwitz criterion
+Matlab code used to test the system stability using the Routh-Hurwitz criterion
