@@ -96,8 +96,8 @@ function Routh_Hurwitz(Poly_Vec)
     if Symmetric_Poles > 1
         disp('Routh-Hurwitz: [Warning] The system is UNSTABLE (It has more then a pair of symetrical Poles)');
     end
-    %Indicates two symmetrical Poles
     % Especial Case #4: Last line is full of zeros
     %Indicates a pole in the origin
+    %disp('Routh-Hurwitz: [Warning] The system is MARGINALLY STABLE (It has a Pole in the origin)');
 
 end
