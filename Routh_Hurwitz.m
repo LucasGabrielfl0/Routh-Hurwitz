@@ -51,18 +51,24 @@ function Routh_Hurwitz(Poly_Vec)
         a1=Matz(i-2,1);
         a2=an;
         Zero_Counter=0;%Number of zeros in the line
-
+        detM_value=1;
         for j= 1:n_columns-1 %iterate columns of matrix
             b1=Matz(i-2,j+1);
             b2=Matz(i-1,j+1);
         
             detM=a2*b1-a1*b2;
-            if detM==0
+            if Zero_Counter>0
+                detM_value=limit(detM, e, 0, 'right');
+            end
+            if (detM==0 || detM_value==0)
                 detM=e;
                 Zero_Counter=Zero_Counter+1;
+                detM_value=1;
             end
             Matz(i,j)=detM/an;
         end
+        % disp(Zero_Counter);
+        % disp(n_columns-1);
         %Especial case: full line of zeros-------------------------------------
         if(Zero_Counter==n_columns-1)
             Symmetric_Poles=Symmetric_Poles+1;
