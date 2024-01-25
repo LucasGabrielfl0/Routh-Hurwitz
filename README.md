@@ -10,13 +10,15 @@ There are four special cases that are implemented in code, and in each of them y
 ### 1. A zero followed by a non zero element in same line
 
 ### 2. Entire row of zeros
-This means that you have a pair of symmetric poles in your system, the 3 possibilities and shown in the image below:
-![Image](Images/Symmetric_Poles.png)
-It’s important to note that in this your system will be either marginally stable (case B) or unstable (case A)
+This means that you have a pair of symmetric poles in your system, the 3 possibilities of how they are placed are shown in the image below:
 
+![Image!](Images/Symmetric_Poles.png)
+
+It’s important to note that in this special case your system will be either marginally stable (case B) or unstable (case A).
+Also, since we're discussing only a pair of poles, case C is not possible in this scenario (it belongs to the next case).
 
 ### 3. Two entire rows of zeros
-This means that you have 2 pairs of symmetric poles in your system (a case C in the previous image, or 2 cases A, or a case A and a case B…).
+This means that you have 2 pairs of symmetric poles in your system (a case C in the previous image, or 2 cases A, or a case A along with a case B etc).
 However, unlike the previous case, here,  your system is always unstable.
 
 ### 4. Entire LAST row is filled with zeros
