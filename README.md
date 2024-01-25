@@ -10,6 +10,7 @@ Those are the very first conditions the algorithm evaluates, not passing them gu
 * All coefficients of the polynomial must have the same sign
 * No missing term in the coefficients
 
+
 ## Special Cases
 There are four special cases that are implemented in code, and in each of them you will receive a customized message informing you of them.
 
