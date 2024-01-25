@@ -11,7 +11,7 @@ There are four special cases that are implemented in code, and in each of them y
 
 ### 2. Entire row of zeros
 This means that you have a pair of symmetric poles in your system, the 3 possibilities and shown in the image below:
-
+![Image](Images/Symmetric_Poles.png)
 It’s important to note that in this your system will be either marginally stable (case B) or unstable (case A)
 
 
