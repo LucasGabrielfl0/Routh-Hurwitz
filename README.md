@@ -1,7 +1,7 @@
 # Routh-Hurwitz
 The Routh-Hurwitz criterion is used to test the stability of a system, based on which side of the jw axis the poles of said system are located, without finding the poles themselves.
 
-The main use of the algorithm is testing range of stability for symbolic systems.
+The main use of the algorithm is testing the range of stability for symbolic systems.
 NOTE: As of now, symbolic entry is not available. 
 
 ## Necessary but not sufficient conditions for Stability
@@ -31,4 +31,4 @@ This means that you have 2 pairs of symmetric poles in your system (a case C in 
 However, unlike the previous case, here,  your system is always unstable.
 
 ### 4. Entire LAST row is filled with zeros
-This is a extra special case, and it means that you have a pole on the origin of the system, making it marginally stable.
+This is an extra special case, and it means that you have a pole on the origin of the system, making it marginally stable.
