@@ -13,7 +13,7 @@ Those are the very first conditions the algorithm evaluates, not passing them gu
 
 
 ## Special Cases
-There are four special cases that are implemented in code, and in each of them you will receive a customized message informing you of them.
+There are four special cases when calculating the Routh-Hurwitz table, in each of them you will receive a customized message informing you that they happened.
 
 ### 1. A zero followed by a non zero element in same line
 Unlike the others, it doesn’t indicate any lack of instability, but it may throw some values of the table to infinity (but since we are only interested in the sign of the elements and not in their value, it hardly matters)
