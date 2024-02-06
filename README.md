@@ -16,7 +16,7 @@ Those are the very first conditions the algorithm evaluates, not passing them gu
 There are four special cases when calculating the Routh-Hurwitz table, in each of them you will receive a customized message informing you that they happened.
 
 ### 1. A zero followed by a non zero element in same line
-Unlike the others, it doesn’t indicate any lack of instability, but it may throw some values of the table to infinity (but since we are only interested in the sign of the elements and not in their value, it hardly matters)
+Unlike the others, it doesn’t indicate any lack of stability, but it may throw some values of the table to infinity (but since we are only interested in the sign of the elements and not in their value, it hardly matters)
 
 ### 2. Entire row of zeros
 This means that you have a pair of symmetrical poles in your system, causing it to be either marginally stable (case B) or unstable (case A).
