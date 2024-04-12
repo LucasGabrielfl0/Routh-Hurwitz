@@ -11,6 +11,7 @@ Those are the very first conditions the algorithm evaluates, not passing them gu
 * All coefficients of the polynomial must have the same sign
 * No missing term in the coefficients
 
+It's important to note that although falling these rules guarantees the system is unstable, passing them DOESN'T guarantee they’re stable  
 
 ## Special Cases
 There are four special cases when calculating the Routh-Hurwitz table, in each of them you will receive a customized message informing you that they happened.
